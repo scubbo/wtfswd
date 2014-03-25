@@ -1,0 +1,18 @@
+get location1
+get location2
+calculate their midpoint
+plot map based at that midpoint (with both locations visible if possible)
+
+TODOS
+X Get location from client
+* Set (separately?) maximum allowable distance
+* Get distance by public transport instead of absolute
+X Zoom at appropriate level for distance between
+(* Remove markers when you put a new one down)
+* Allow drag-drop markers for location
+* Filter to certain types of entertainment (drink, dance, food, etc.)
+X Set geocoder as window property
+* Animate markers going down
+* Account for negative numbers in bounding boxes? (Don't *think* I need to, but just check...)
+* Usage idea - start with crow-centre, with lines joining to both parties. Allow to "drag" the centre around, showing relative distances. When dropped, calculate transit distance
+Set time to depart/arrive
